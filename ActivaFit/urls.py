@@ -5,8 +5,8 @@ from ActivaFit import views
 router = routers.DefaultRouter()
 
 router.register(r'ejercicios', views.EjercicioViewSet)
-router.register(r'rutinas', views.RuntinaViewSet)
-router.register(r'usuarios', views.ProgresoUsuario)
+router.register(r'rutinas', views.RutinaViewSet)
+router.register(r'usuarios', views.ProgresoUsuarioViewSet)
 
 urlpatterns = [
     path('', include(router.urls))

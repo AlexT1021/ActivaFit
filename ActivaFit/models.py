@@ -95,3 +95,4 @@ class ProgresoUsuario(models.Model):
 
     def __str__(self):
         return f"{self.usuario.username} - {self.rutina.nombre if self.rutina else 'Rutina eliminada'} - {self.fecha_completado.date()}"
+    
