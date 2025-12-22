@@ -1,1 +1,1 @@
-Este es un proyecto universitario, donde se encarga una aplicacion de fitness.
+Este es un proyecto universitario, donde se encarga el desarrollo backend de una aplicacion de fitness.
